@@ -1,7 +1,7 @@
 # Ignore actual databases
-*.db
 *.sqlite
 *.backup
+backend/converted_data.sqlite.backup
 *.sqlite3
 
 # Ignore database migrations if using Alembic
