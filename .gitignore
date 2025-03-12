@@ -1,0 +1,17 @@
+# Ignore actual databases
+*.db
+*.sqlite
+*.backup
+*.sqlite3
+
+# Ignore database migrations if using Alembic
+migrations/
+
+# Ignore Python environment & compiled files
+__pycache__/
+.env
+*.pyc
+*.pyo
+*.pyd
+venv/
+.envrc
